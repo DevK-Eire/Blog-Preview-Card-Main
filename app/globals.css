@@ -4,16 +4,25 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-hsl: 47, 88%, 63%;
+  --background-end-hsl: 47, 88%, 63%;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-hsl: 0, 0%, 0%;
+    --background-end-hsl: 0, 0%, 0%;
   }
+}
+
+.custom-box-shadow {
+  transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
+  box-shadow: 5px 5px black;
+}
+
+.custom-box-shadow:hover {
+  box-shadow: 10px 10px black !important;
 }
 
 body {
@@ -21,7 +30,7 @@ body {
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      hsl(var(--background-end-hsl))
     )
-    rgb(var(--background-start-rgb));
+    hsl(var(--background-start-hsl));
 }
