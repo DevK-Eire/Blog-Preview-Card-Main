@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-hsl: 47, 88%, 63%;
   --background-end-hsl: 47, 88%, 63%;
@@ -14,7 +14,7 @@
     --background-start-hsl: 0, 0%, 0%;
     --background-end-hsl: 0, 0%, 0%;
   }
-}
+} */
 
 .custom-box-shadow {
   transition: box-shadow 0.3s ease; /* Smooth transition for the shadow */
