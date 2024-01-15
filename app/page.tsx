@@ -5,7 +5,7 @@ import './globals.css'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-40 bg-[color:hsl(47,88%,63%)]">
+    <main className="flex min-h-screen flex-col items-center justify-center p-2 sm:p-40 bg-[color:hsl(47,88%,63%)]">
     <div className='bg-white rounded-3xl border hover-shadow border-black max-w-96 w-full p-6 space-y-2 custom-box-shadow'>
         <div className='rounded-xl'>
           <Image 
