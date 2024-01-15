@@ -21,7 +21,7 @@ export default function Home() {
         <div className='bg-[color:hsl(47,88%,63%)] rounded font-bold px-3 p-1 text-sm inline-flex flex-row text-black'>Learning</div>
         </div>
         <div className='text-xs'>Published 21 Dec 2023</div>
-        <button className='font-extrabold hover:text-[color:hsl(47,88%,63%) text-black]'>HTML & CSS foundations</button>
+        <button className='font-extrabold hover:text-[color:hsl(47,88%,63%)] text-black'>HTML & CSS foundations</button>
         <div className='text-xs font-thin mb-2 text-black'>These languages are the backbone of every website, defining structure, content, and presentation. </div>
         <div className='py-2'>
         <div className='flex flex-row items-center text-center text-xs h-5 w-5 gap-2'>
